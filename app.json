@@ -4,10 +4,10 @@
     "slug": "Financio",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/financio-logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/financio-logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/financio-logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.chifrica.Financio"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/financio-logo.png.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "79ed09bd-560e-41a8-9797-baf3275230c0"
+      }
     }
   }
 }
