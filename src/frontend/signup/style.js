@@ -12,7 +12,7 @@ const style = StyleSheet.create({
         justifyContent: 'flex-end',
         fontSize: 25,
         fontWeight: 'bold',
-        marginTop: 20,
+        marginTop: 8,
         marginBottom: 10,
         left: 115,
         backgroundColor: '#7C04B4',

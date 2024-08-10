@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const style = StyleSheet.create({
     container: {
         flex: 1,
-        marginTop: 30
+        marginTop: 0
     },
 
     topView: {
@@ -15,7 +15,7 @@ const style = StyleSheet.create({
 
     topViewImg: {
         resizeMode: 'contain',
-        marginTop: 10,
+        marginTop: 0,
         height: 80
     },
 

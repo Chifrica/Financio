@@ -3,7 +3,6 @@ import { StyleSheet } from "react-native";
 const style = StyleSheet.create({
     container: {
         flex: 1,
-        marginTop: 10,
         padding: 10
     },
 
@@ -18,7 +17,7 @@ const style = StyleSheet.create({
         textAlign: 'center',
         fontWeight: 'bold',
         fontSize: 20,
-        marginTop: 20
+        marginTop: 3
     },
 
     topImage: { 

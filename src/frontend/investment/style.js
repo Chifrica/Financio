@@ -4,7 +4,7 @@ const style = StyleSheet.create({
     container: {
         flex: 1,
         padding: 20,
-        marginTop: 20,
+        marginTop: 3,
     },
 
     img: {
