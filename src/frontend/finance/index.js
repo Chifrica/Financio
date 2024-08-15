@@ -26,7 +26,7 @@ const Finance = ({navigation}) => {
                     </TouchableOpacity>
                     <TouchableOpacity 
                         style={style.bodyContent}
-                        onPress={() => navigation. navigate(Expenses)}
+                        onPress={() => navigation.navigate(Expenses)}
                     >
                         <Text style={style.bodyContentTopTxt}>Expenses Report</Text>
                         <Text>Your daily, weekly or monthly automatic savings.</Text>
