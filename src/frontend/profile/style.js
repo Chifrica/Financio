@@ -17,7 +17,7 @@ const style = StyleSheet.create({
         textAlign: 'center',
         fontWeight: 'bold',
         fontSize: 20,
-        marginTop: 3
+        marginTop: 5
     },
 
     topImage: { 

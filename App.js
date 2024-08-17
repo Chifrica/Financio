@@ -8,6 +8,10 @@ import Investment2 from './src/frontend/investment/index2';
 import AddBankAccount from './src/frontend/investment/addBankAccount';
 import Expenses from './src/frontend/finance/expenses';
 import { ImageProvider } from './src/frontend/context/imageContext'; // Adjust the import path as necessary
+import SaveForARainyDay from './src/frontend/savings/save for a rainy day';
+import BuyAHome from './src/frontend/savings/buy a home';
+import PaymentOfSchoolFees from './src/frontend/savings/payment of school fees';
+import TakeATrip from './src/frontend/savings/take a trip';
 
 const Stack = createNativeStackNavigator();
 
@@ -72,6 +76,37 @@ export default function App() {
             }}
           />
 
+          <Stack.Screen 
+            name="SaveForARainyDay"
+            component={SaveForARainyDay}
+            options={{
+              headerShown: false
+            }}
+          />  
+
+          <Stack.Screen 
+            name="BuyAHome"
+            component={BuyAHome}
+            options={{
+              headerShown: false
+            }}
+          />
+
+          <Stack.Screen 
+            name="PaymentOfSchoolFees"
+            component={PaymentOfSchoolFees}
+            options={{
+              headerShown: false
+            }}
+          />
+
+          <Stack.Screen 
+            name="TakeATrip"
+            component={TakeATrip}
+            options={{
+              headerShown: false
+            }}
+          />
           {/* <Stack.Screen 
             name="ProfileEditing"
             component={ProfileEditing}

@@ -15,7 +15,24 @@ const SignUp = ({navigation}) => {
     const [ confirmPassword, setConfirmPassword] = useState('');
 
     const handleSignUp = () => {
-        Alert.alert("Successfully Sign Up. Click login to continue!")
+        if (!email || !name || !regNumber || !phoneNumber || !password || !confirmPassword) {
+            Alert.alert("Please fill in all fields!");
+            return;
+          }
+      
+          if (password !== confirmPassword) {
+            Alert.alert("Passwords do not match!");
+            return;
+        } 
+        
+        Alert.alert("Successfully signed up! Click login to continue.");
+        // Clear inputs after successful signup
+        setEmail('');
+        setName('');
+        setRegNumber('');
+        setPhoneNumber('');
+        setPassword('');
+        setConfirmPassword('');
     }
 
     return (
@@ -98,5 +115,6 @@ const SignUp = ({navigation}) => {
         </ScrollView>
     )
 }
+
 
 export default SignUp;
