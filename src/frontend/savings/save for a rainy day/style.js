@@ -3,14 +3,24 @@ import { StyleSheet } from "react-native";
 const style = StyleSheet.create({
     container: {
         flex: 1,
-        padding: 20,
+        paddingTop: 20,
+        paddingLeft: 10,
+        paddingRight: 10,
         marginTop: 3,
     },
 
-    img: {
-        marginTop: 20,
-        marginBottom: 15,
-        alignSelf: 'center'
+    topName: {
+        flexDirection: 'row',  
+        marginBottom: 20,
+        paddingTop: 5
+    },
+
+    topNameTxt: {
+        // color: '#7C04B4',
+        textAlign: 'center',
+        fontWeight: 'bold',
+        fontSize: 20,
+        marginLeft: 40
     },
 
 });
