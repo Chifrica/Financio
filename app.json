@@ -7,7 +7,6 @@
     "icon": "./assets/financio-logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/financio-logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },

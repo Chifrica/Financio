@@ -7,16 +7,12 @@ import { useContext, useState } from "react";
 const googleImage = require('../../../assets/img/google.png')
 
 const SignUp = ({navigation}) => {
-    const { email, setEmail } = useContext(ImageContext);
-    const { name, setName } = useContext(ImageContext);
-    const { regNumber, setRegNumber } = useContext(ImageContext);
-    const { phoneNumber, setPhoneNumber } = useContext(ImageContext);
-    const { password, setPassword } = useContext(ImageContext);
+    const { email, setEmail, name, setName, regNumber, setRegNumber, phoneNumber, setPhoneNumber, password, setPassword } = useContext(ImageContext);
     const [ confirmPassword, setConfirmPassword] = useState('');
 
     const handleSignUp = () => {
         if (!email || !name || !regNumber || !phoneNumber || !password || !confirmPassword) {
-            Alert.alert("Please fill in all fields!");
+            Alert.alert("Please fill in the blank!");
             return;
           }
       
@@ -27,12 +23,6 @@ const SignUp = ({navigation}) => {
         
         Alert.alert("Successfully signed up! Click login to continue.");
         // Clear inputs after successful signup
-        setEmail('');
-        setName('');
-        setRegNumber('');
-        setPhoneNumber('');
-        setPassword('');
-        setConfirmPassword('');
     }
 
     return (
