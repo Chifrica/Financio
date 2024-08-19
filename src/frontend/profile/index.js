@@ -123,10 +123,10 @@ const Profile = () => {
                             <Image source={require('../../../assets/bottom icons/saving-blur.png')} style={{ height: 20, width: 20 }} />
                             <Text style={style.settingsTxt}>Savings</Text>
                         </View>
-                        <View style={style.expense}>
+                        {/* <View style={style.expense}>
                             <Image source={require('../../../assets/bottom icons/investment-blur.png')} style={{ height: 20, width: 20 }} />
                             <Text style={style.settingsTxt}>Expenses</Text>
-                        </View>
+                        </View> */}
                     </View>
                 </View>
 

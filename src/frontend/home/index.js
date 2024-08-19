@@ -87,26 +87,31 @@ const Home = ({ navigation }) => {
 
                 {/* Monthly Log */}
                 <View style={style.juneLog}>
-                    <Text style={style.juneLogTopTxt}>JUNE LOG</Text>
+                    <Text style={style.juneLogTopTxt}>JULY LOG</Text>
                     <View style={style.juneLogViewTxt}>
                         <View style={style.juneLogTxt}>
-                            <Text style={style.juneLogTxtAll}>INCOME</Text>
-                            <Text style={style.juneLogTxtAll}>11,000.00</Text>
+                            <Text style={style.juneLogTxtAllIncome}>INCOME</Text>
+                            <Text style={style.juneLogTxtAllIncome}>45,000.00</Text>
                         </View>
                         <Text style={{ color: '#fff' }}>___________________________________________</Text>
                         <View style={style.juneLogTxt}>
                             <Text style={style.juneLogTxtAll}>INVESTMENT</Text>
-                            <Text style={style.juneLogTxtAll}>1,000.00</Text>
+                            <Text style={style.juneLogTxtAll}>5,000.00</Text>
                         </View>
                         <Text style={{ color: '#fff' }}>___________________________________________</Text>
                         <View style={style.juneLogTxt}>
                             <Text style={style.juneLogTxtAll}>SAVINGS</Text>
-                            <Text style={style.juneLogTxtAll}>3,000.00</Text>
+                            <Text style={style.juneLogTxtAll}>7,000.00</Text>
                         </View>
                         <Text style={{ color: '#fff' }}>___________________________________________</Text>
                         <View style={style.juneLogTxt}>
                             <Text style={style.juneLogTxtAll}>EXPENSE</Text>
-                            <Text style={style.juneLogTxtAll}>7,000.00</Text>
+                            <Text style={style.juneLogTxtAll}>30,000.00</Text>
+                        </View>
+                        <Text style={{ color: '#fff' }}>___________________________________________</Text>
+                        <View style={style.juneLogTxt}>
+                            <Text style={style.juneLogTxtAllBalance}>BALANCE</Text>
+                            <Text style={style.juneLogTxtAllBalance}>3,000.00</Text>
                         </View>
                     </View>
                 </View>

@@ -152,8 +152,21 @@ const style = StyleSheet.create({
         justifyContent: 'space-between',
     },
 
+    juneLogTxtAllIncome: {
+        color: 'blue',
+        fontSize: 13,
+        fontWeight: 'bold',
+        paddingTop: 5
+    },
+
     juneLogTxtAll: {
         color: '#7C04B4',
+        fontSize: 13,
+        fontWeight: 'bold',
+        paddingTop: 5
+    },
+    juneLogTxtAllBalance: {
+        color: 'red',
         fontSize: 13,
         fontWeight: 'bold',
         paddingTop: 5

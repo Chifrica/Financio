@@ -151,7 +151,7 @@ const Expenses = ({ navigation }) => {
                     onPress={() => setIsAdding(!isAdding)}
                 >
                     <Image source={require('../../../../assets/icons/add_icon.png')} />
-                    <Text style={{ color: '#fff', fontSize: 15, fontWeight: 'bold', paddingRight: 5 }}>Add</Text>
+                    <Text style={{ color: '#fff', fontSize: 15, fontWeight: 'bold', paddingRight: 10 }}>Add</Text>
                 </TouchableOpacity>
             </View>
         </ScrollView>

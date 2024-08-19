@@ -11,8 +11,8 @@ const style = StyleSheet.create({
     icon: {
         marginTop: 40,
         alignSelf: 'center',
-        height: 100,
-        width: 100,
+        height: 80,
+        width: 80,
     },
 
     container_2: {

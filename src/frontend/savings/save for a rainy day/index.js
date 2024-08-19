@@ -8,7 +8,7 @@ const SaveForARainyDay = ({navigation}) => {
                 <TouchableOpacity onPress={() => navigation.goBack()}>
                     <Image source={require('../../../../assets/icons/return_back_icon.png')} style={{ height: 30, width: 20 }} />
                 </TouchableOpacity>
-                <Text style={style.topNameTxt}>Saving for a Rainy Day</Text>
+                <Text style={style.topNameTxt}>Saving for a Rainy Season</Text>
             </View>        
 
             <View style={{backgroundColor: '#fff', padding: 10, borderRadius: 10, marginTop: 10}}>

@@ -16,7 +16,7 @@ const Savings = ({navigation}) => {
 
             <TouchableOpacity onPress={() => navigation.navigate(SaveForARainyDay)} style={style.body}>
                 <Image source={require('../../../assets/img/umbrella.png')} style={{marginRight: 3, height: 20, width: 20}} />
-                <Text style={style.bodyTxt}>Save for a rainy day</Text>
+                <Text style={style.bodyTxt}>Save for a rainy season</Text>
             </TouchableOpacity>
 
             <TouchableOpacity onPress={() => navigation.navigate(BuyAHome)}  style={style.body}>

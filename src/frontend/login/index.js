@@ -3,9 +3,8 @@ import style from './style';
 import SignUp from '../signup';
 import { useContext, useState } from 'react';
 import BottomNavigation from '../../navigation/bottomNavigation';
-import { ImageContext } from '../context/imageContext';
 
-const financioIcon = require('../../../assets/img/financio logo.png'); 
+const financioIcon = require('../../../assets/financio-logo.png'); 
 
 const Login = ({navigation}) => {
     const [ regNumber1, setRegNumber1 ] = useState('');

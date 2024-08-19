@@ -7,7 +7,8 @@ const style = StyleSheet.create({
     },
 
     topName: {
-        flexDirection: 'row',  
+        flexDirection: 'row', 
+        marginTop: 15, 
         marginBottom: 20,
         paddingLeft: 20,
         paddingTop: 5
@@ -22,7 +23,10 @@ const style = StyleSheet.create({
     },
 
     cardBalance: {
-        marginTop: 5,
+        marginTop: 5,        
+        marginBottom: 20,
+        marginLeft: 15,
+        marginRight: 15,
         backgroundColor: '#7C04B4',
         borderRadius: 10,
         paddingTop: 10,
@@ -30,7 +34,6 @@ const style = StyleSheet.create({
         paddingRight: 10,
         paddingLeft: 30,
         elevation: 10,
-        marginBottom: 20
     },
 
     subTopNameTxt: {
@@ -43,6 +46,7 @@ const style = StyleSheet.create({
     summary: {
         backgroundColor: '#D9D9D9',
         padding: 10,
+        margin: 10
     },
 
     june: {

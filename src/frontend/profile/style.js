@@ -17,7 +17,7 @@ const style = StyleSheet.create({
         textAlign: 'center',
         fontWeight: 'bold',
         fontSize: 20,
-        marginTop: 5
+        marginTop: 15
     },
 
     topImage: { 
@@ -32,7 +32,7 @@ const style = StyleSheet.create({
 
     profileView: {
         flexDirection: 'row',
-        marginTop: 20,
+        marginTop: 10,
         marginBottom: 20
     },
 
